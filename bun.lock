@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "alex",
+      "name": "kanishk",
       "dependencies": {
         "@tailwindcss/vite": "^4.1.12",
         "tailwindcss": "^4.1.12",

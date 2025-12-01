@@ -184,7 +184,7 @@ function createBlogHTML(title, content, date = 'August 2024') {
       }
     };
   </script>
-  <title>${title} - Alex Hamidi</title>
+  <title>${title} - Kanishk Kundu</title>
 </head>
 
 <body class="flex flex-col items-center text-gray-900 font-mono overflow-x-hidden bg-[#fcfcfa] color-[#121212]">
@@ -202,15 +202,15 @@ function createBlogHTML(title, content, date = 'August 2024') {
 
     <div class="flex items-center justify-between mt-8 pt-8 border-t border-gray-200">
       <div class="text-sm text-gray-600">
-        Written by <a href="/" class="underline hover:text-gray-900">Alex Hamidi</a>
+        Written by <a href="/" class="underline hover:text-gray-900">Kanishk Kundu</a>
       </div>
       <div class="flex gap-4 text-sm">
-        <a href="https://twitter.com/ahamidi_" class="text-gray-600 hover:text-gray-900 underline">Twitter</a>
-        <a href="https://github.com/alexhamidi/" class="text-gray-600 hover:text-gray-900 underline">GitHub</a>
+        <a href="https://x.com/kanishk_k23" class="text-gray-600 hover:text-gray-900 underline">X</a>
+        <a href="https://github.com/KanishkKundu05" class="text-gray-600 hover:text-gray-900 underline">GitHub</a>
       </div>
     </div>
 
-  </div>
+</div>
 
   <script>
     // Initialize the tanh graph if the element exists
