@@ -33,9 +33,7 @@
       </span>
 
       <span>
-        I spend my days @ <a rel="noopener noreferrer" target="_blank" href="https://www.verci.com/satellite" class="underline text-gray-900 transition-all duration-500 hover:text-gray-50 hover:bg-gray-600 px-0.5">Verci</a>, building w/ incredible founders. I also enjoy running &
-        <span id="reading"
-          class="cursor-default underline transition-all duration-500 hover:text-gray-50 hover:bg-gray-900 px-0.5">reading</span>.
+        I spend my days building @ <a rel="noopener noreferrer" target="_blank" href="https://www.verci.com/satellite" class="underline text-gray-900 transition-all duration-500 hover:text-gray-50 hover:bg-gray-600 px-0.5">Verci</a>, collaborating w/ incredible founders.
       </span>
 
       <span>
@@ -49,14 +47,16 @@
           <li class="mt-2 list-disc">hacked my meta glasses to run my own <a rel="noopener noreferrer" target="_blank"
             href="https://"
             class="underline text-gray-900 transition-all duration-500 hover:text-gray-50 hover:bg-gray-600 px-0.5">fitness & navigation companion</a></li>
-          <li class="mt-2 list-disc"></li>
+          <li class="mt-2 list-disc">launched <a rel="noopener noreferrer" target="_blank"
+            href="https://sixseven.nyc/lander"
+            class="underline text-gray-900 transition-all duration-500 hover:text-gray-50 hover:bg-gray-600 px-0.5">sixseven.nyc</a> to share my (brainrot) digital art.</li>
           <li class="mt-2 list-disc"></li>
         </ul>
       </span>
 
       <span>
-        i love using <a href="funtools/index.html"
-        class="underline text-gray-900 transition-all duration-500 hover:text-gray-50 hover:bg-gray-600 px-0.5">fun tools</a>. reach out if you're building something cool :)
+        i enjoy trying <a href="funtools/index.html"
+        class="underline text-gray-900 transition-all duration-500 hover:text-gray-50 hover:bg-gray-600 px-0.5">new tools</a>: reach out if you're building something cool!
       </span>
 
       <span
@@ -78,7 +78,7 @@
     <div class="flex flex-col gap-5 mt-2">
       <h1 class="text-base font-normal">Projects</h1>
 
-      <a href="web/index.html" rel="noopener noreferrer" target="_blank" class="no-underline hover:bg-transparent color-[#121212]">
+      <a href="web/index.html" rel="noopener noreferrer" class="no-underline hover:bg-transparent color-[#121212]">
         <div class="border border-gray-400 flex items-start gap-4 rounded-2xl overflow-hidden">
           <div class="flex-shrink-0 w-32 h-20 border-r border-gray-400">
             <img src="./public/ai.webp" alt="Teaching GPT-5 to Use a Computer" class="w-full h-full object-cover">
@@ -152,7 +152,7 @@
           </div>
           <div class="mt-1.5 flex-1 flex flex-col gap-2 py-2.5">
             <h3 class="m-0 text-base font-normal">Six: mutuals-only social app </h3>
-            <p class="m-0 text-sm text-gray-600">ai agent that breaks the ice.</p>
+            <p class="m-0 text-sm text-gray-600">agent that breaks the ice.</p>
           </div>
           <div class="py-2.5 pr-2.5 flex-shrink-0 flex flex-col items-end gap-1.5 text-right">
             <span class="text-xs text-gray-500">December 2025</span>
@@ -217,7 +217,6 @@
   <script>
     const tooltip = document.getElementById('tooltip');
     const email = document.getElementById('email');
-    const reading = document.getElementById('reading');
     const mathlete = document.getElementById('mathlete');
 
     // Replace this with your actual email address
@@ -241,17 +240,6 @@
       setTimeout(() => {
         tooltip.textContent = 'copy';
       }, 1000);
-    });
-
-    reading.addEventListener('mousemove', (e) => {
-      tooltip.style.opacity = '1';
-      tooltip.style.left = (e.clientX + 10) + 'px';
-      tooltip.style.top = (e.clientY + 10) + 'px';
-      tooltip.innerHTML = '<i>Meditations</i> by Marcus Aurelius';
-    });
-
-    reading.addEventListener('mouseleave', () => {
-      tooltip.style.opacity = '0';
     });
 
     mathlete.addEventListener('mousemove', (e) => { 
